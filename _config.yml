@@ -2,6 +2,7 @@ title: Minimal
 tagline:
   Minimal project theme for Jekyll
 
+baseurl: /minimum
 google_analytics: UA-86544704-1
 google_adsense: ca-pub-3538270718430385:3984415626
 
