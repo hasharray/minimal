@@ -2,8 +2,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <style type="text/css">
-    {{ "@import 'base';" | scssify }}
-    {{ "@import 'syntax';" | scssify }}
+    {% capture style %}
+      @import "base";
+      @import "syntax";
+    {% endcapture %}
+
+    {{ style | scssify }}
   </style>
 
   <meta name="viewport" content="width=device-width">
