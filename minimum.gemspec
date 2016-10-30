@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/hasharray/jekyll-minimum"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
+  spec.files         = `git ls-files -z`.split("\x0").select do |file|
+    file.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i})
+  end
 
   spec.add_development_dependency "jekyll", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.12"
