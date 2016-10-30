@@ -30,9 +30,6 @@
   {% endif %}
 
   {% if site.google_adsense %}
-    <ins class="sponsor adsbygoogle"
-       data-ad-client="{{ site.google_adsense | split: ":" | first }}"
-       data-ad-slot="{{ site.google_adsense | split: ":" | last }}"
-       data-ad-format="auto"></ins>
+    {% include google_adsense.html %}
   {% endif %}
 </header>
