@@ -1,3 +1,5 @@
+---
+---
 # Minimal - Minimal project theme for Jekyll.
 
 Minimal is a minimal project theme for Jekyll, it's based on the automatic page

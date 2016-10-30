@@ -5,6 +5,20 @@ tagline:
 google_analytics: UA-86544704-1
 google_adsense: ca-pub-3538270718430385:3984415626
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
+      path: "README.md"
+      type: pages
+    values:
+      permalink: "/"
+
 repository: hasharray/minimal
 gems:
   - jekyll-mentions
