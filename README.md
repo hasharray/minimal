@@ -1,9 +1,9 @@
 ---
 ---
-# Minimal - Minimal project theme for Jekyll.
+# Minimum - Minimum project theme for Jekyll.
 
-Minimal is a minimal project theme for Jekyll, it's based on the automatic page
-theme on GitHub called minimal by Steve Smith (@orderedlist).
+Minimum is a minimal project theme for Jekyll, it's based on the automatic page
+theme on GitHub called minimal by Steve Smith.
 
 ## Installation
 
